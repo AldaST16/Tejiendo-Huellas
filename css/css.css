@@ -1,0 +1,197 @@
+ body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .carousel-item img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+    .carousel-caption {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .service:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+    }
+    footer {
+      background-color: #2e6547;
+      color: #fff;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+    }
+    .logo {
+      height: 50px;
+    }
+    .nav-link {
+      font-weight: 500;
+    }
+    .btn-success {
+      background-color: #3b7a57;
+      border: none;
+    }
+    .btn-success:hover {
+      background-color: #2e6547;
+    }
+    .social-icons a {
+      color: #fff;
+      font-size: 1.5rem;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+    .social-icons a:hover {
+      color: #3b7a57;
+    }
+
+    
+.carousel-caption h3,
+.carousel-caption p {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); 
+}
+
+
+.carousel-item {
+  position: relative;
+}
+.carousel-item img {
+  filter: brightness(50%); 
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-shadow {
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7); 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%); 
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #ff5733; 
+  border-radius: 50%; 
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.021); 
+  border-radius: 50%; 
+  transition: background-color 0.3s ease; 
+}
+
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0); 
+}
+
+
+.input-group-text {
+  background-color: #f0f0f0; 
+  border-right: 0; 
+}
+
+.form-control {
+  border-left: 0; 
+  border-radius: 0; 
+}
+
+textarea.form-control {
+  resize: vertical; 
+}
+
+
+.btn-primary {
+  background-color: #007bff; 
+  border-color: #007bff; 
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; 
+  border-color: #0056b3; 
+}
+
+
+.separator {
+  border: 0;
+  border-top: 2px solid #3b7a57; 
+  margin: 40px 0;
+}
+
+.img-fixed {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-img-container {
+  position: relative;
+  width: 100%;
+}
+
+.btn-reservar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(40, 167, 69, 0.4); /* btn-success color */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  z-index: 2;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.btn-reservar:hover {
+  opacity: 1;
+  background-color: rgba(40, 167, 69, 0.8); /* btn-success hover */
+}
+
+.card {
+  position: relative;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-rounded {
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.hover-animate {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-animate:hover {
+  transform: translateY(-10px); /* Levanta la tarjeta */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra sutil */
+}
+
+.btn-rounded {
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
